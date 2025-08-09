@@ -1,0 +1,3 @@
+First load data into DuckDB with `load.sql`, then run `all.sql` and save result to `time.txt`.
+Finally, run `extract_final_timings.py` to parse and extract.
+The timing is printed out in lex order, i.e. 10a is the first one.
