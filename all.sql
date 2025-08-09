@@ -1,5 +1,5 @@
-.set threads=1;
-.output csv
+set threads = 1;
+.mode csv
 .timer on
 
 create or replace view aggView6401107725205934119 as select id as v29 from role_type as rt where role= 'actor';
